@@ -10,6 +10,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    environment: medical-prediction-webpage
     steps:
       # Check-out your repository.
       - name: Checkout
